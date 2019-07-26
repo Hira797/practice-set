@@ -86,6 +86,47 @@ let students = [
     }
   ];
 
+//    question 1
+
+    
+// for(let i = 0; i < students.length; i++){
+//   console.log("Name: " + students[i].name );
+//  if( students[i].gender === "f"){
+//    console.log("Gender: female");
+//  }
+//  else{
+//    console.log("Gender: male");
+//  }
+// console.log( "city: " +  students[i].address.city );
+// console.log( "Score: " + students[i].admissionTestScore + " Marks");
+// console.log( " ")
+// }
+
+// ===========================
+
+// let i = 0;
+// for(let i = 0; i < students.length; i++)
+// { 
+//   console.log("Name: " + students[i].name);
+
+// if( students[i].gender === "m"){
+//  console.log("Gender: Female");
+// }
+// }
+
+// for(let i = 0; i <students.length; i++){
+//     if(students[i].gender == "f"){
+//         console.log(students[i].name);
+//     }
+// }
+for (let i = 0; i < students.length; i++){
+  if(students[i].gender == "m"){
+    console.log(students[i].name);
+  }
+}
+
+
+  //    question 2
 //   let i = 0;
 //   if (student[i].gender === "f") {
 //       console.log("gender:female");
@@ -93,10 +134,12 @@ let students = [
 // else{
 //     console.log("gender:male")
 // }
+
+// question 3
 // for (let i = 0; i < students.length; i++){
 //     console.log("Name:" + student[i].name)
 
-
+      //  question 5
 // ager internet hai or khi me rehta hai to print eligible 
 // wrna not eligiible
 
@@ -133,22 +176,21 @@ let students = [
 //     else{
 //         groupA.push(students[i].name);
 //     }
+// // }
+// console.log("group")
+
+//
+// =====================  9      ===============
+// for (let i = 0; i < students.length; i++) {
+//       if(students[i].dob.getFullYear()  )
+//       console.log(students[i].name);
 // }
-console.log("group")
 
+//                question no 10
 
+// let today = new Date()
+// for( let i = 0; i < students.length; i++){
+//   let age = today.getFullYear() - students[i].dob.getFullYear();
 
-
-
-//  question no 9
-for (let i = 0; i < students.length; i++){
-    console.log(students[i].dob + "is" + students[i].newDate)
-}
-
-for (let i = 0; i < students.length; i++){
-
-    let dob = students[i].dob;
-    let today = new Date();
-
-    let yearDiff = 
-}
+//   console.log(students[i].name + "'s age is " + age +  " years");
+// }
